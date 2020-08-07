@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/usernameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="@string/login_email"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:ems="10"
+        android:hint="@string/login_password"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/login_btn"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:clickable="false"
+        android:text="@string/login_reg_txt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:text="@string/login_reg_btn"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+</LinearLayout>

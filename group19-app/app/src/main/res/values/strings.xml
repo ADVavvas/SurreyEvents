@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Software EngineeringProject</string>
+    <string name="title_activity_map">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile_event_number">Events attended</string>
+    <string name="title_activity_maps">MapActivity</string>
+    <string name="speech_prompt">Speech Prompt</string>
+    <string name="speech_not_supported">Speech not supported</string>
+    <string-array name="accountTypes">
+        <item>Student</item>
+        <item>Society</item>
+    </string-array>
+    <string name="register_email">Surrey University Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_2">Confirm Password</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="i_have_read_and_accept_these_conditions">I have read and accept these conditions</string>
+    <string name="register_btn">Register</string>
+    <string name="login_email">Surrey University Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_reg_txt">Not registered?</string>
+    <string name="login_reg_btn">Register</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Spinner
+        android:id="@+id/rSpinnerChoices"
+        android:layout_marginTop="150dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rUsernameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/register_email"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <EditText
+        android:id="@+id/rPasswordTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/register_password"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/rPasswordConfirmTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_password_2"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/rTermsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/terms_and_conditions" />
+
+    <CheckBox
+        android:id="@+id/rTermsCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_have_read_and_accept_these_conditions" />
+
+    <Button
+        android:id="@+id/rRegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/register_btn"
+        android:textColor="#ffffff" />
+</androidx.appcompat.widget.LinearLayoutCompat>
